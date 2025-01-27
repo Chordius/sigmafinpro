@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* add the code bellow */ 
+@layer base {
+    body {
+        @apply font-[Outfit]
+    }
+    li {
+        @apply cursor-pointer;
+    }
+  }
+  
+  
+
